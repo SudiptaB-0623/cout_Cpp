@@ -6,9 +6,8 @@ using namespace std;
 
 
 /* strings at index 0 is not used, it is to make array indexing simple */
-string ones[]={ "", "one ", "two ", "three ", "four ","five ", "six ", "seven ", "eight ",
-				"nine ", "ten ", "eleven ", "twelve ","thirteen ", "fourteen ", "fifteen ",
-				"sixteen ", "seventeen ", "eighteen ","nineteen " };
+string ones[]={ "", "one ", "two ", "three ", "four ","five ", "six ", "seven ", "eight ", "nine ", "ten ", "eleven ", "twelve ","thirteen ", "fourteen ", "fifteen ",
+			"sixteen ", "seventeen ", "eighteen ","nineteen " };
 
 string tens[] = { "", "", "twenty ", "thirty ", "forty ","fifty ", "sixty ", "seventy ", "eighty ","ninety " };
 
