@@ -9,13 +9,13 @@ int main()
     cin>>n;
     int arr[n];
     cout<<"\nEnter the elements: ";
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++)                    //Input Array
     {
         cin>>arr[i];
     }
 
     cout<<"Output: \n";
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++)                    //Sorting
     {         
         for(int j=i+1;j<n;j++)
         {
@@ -24,7 +24,7 @@ int main()
         }
     }
 
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++)                    //Output Array
     {
         cout<<arr[i]<<" ";
     }
