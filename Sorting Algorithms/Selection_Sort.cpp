@@ -15,7 +15,7 @@ int main()
     }
 
     cout<<"Output: \n";
-    for(int i=0;i<n;i++)                    //Sorting
+    for(int i=0;i<n;i++)                    //Selection Sorting
     {         
         for(int j=i+1;j<n;j++)
         {
