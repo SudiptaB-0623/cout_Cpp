@@ -31,7 +31,7 @@ void merge(int arr[], int l, int m, int r)              //function to merge the 
             k++;
             continue;
         }
-        if(j>=b)                            ////if m2 runs out of element, just keep adding elements from m1
+        if(j>=b)                            //if m2 runs out of element, just keep adding elements from m1
         {
             arr[l+k]=m1[i];
             i++;
